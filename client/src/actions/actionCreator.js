@@ -18,3 +18,9 @@ export const changeStepAction = (step) => {
         payload: step
     });
 };
+
+export const toggleThemeAction = () => {
+    return ({
+        type: ACTION_TYPES.TOGGLE_THEME
+    });
+};
